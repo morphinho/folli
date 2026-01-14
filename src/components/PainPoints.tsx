@@ -60,7 +60,7 @@ export default function PainPoints() {
         </div>
 
         <div className="relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-[#388E3C] to-[#2E7D32] rounded-2xl md:rounded-3xl opacity-10 blur-xl"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#5D4037] to-[#4E342E] rounded-2xl md:rounded-3xl opacity-10 blur-xl"></div>
           <div className="relative bg-gradient-to-r from-[#3E2723] via-[#5D4037] to-[#3E2723] text-white p-6 md:p-10 rounded-2xl md:rounded-3xl shadow-2xl border border-[#5D4037]">
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6 text-center md:text-left">
               <div className="flex-shrink-0">

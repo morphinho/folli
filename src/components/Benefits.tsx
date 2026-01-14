@@ -29,7 +29,7 @@ export default function Benefits() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#3E2723] mb-4">
-            Por que o <span className="text-[#388E3C]">FolliVida</span> funciona
+            Por que o <span className="text-[#5D4037]">FolliVida</span> funciona
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#D4AF37] to-[#FFD700] mx-auto rounded-full mb-6"></div>
           <p className="text-[#5D4037] text-lg md:text-xl max-w-2xl mx-auto">
@@ -43,11 +43,11 @@ export default function Benefits() {
             return (
               <div
                 key={index}
-                className="bg-white p-4 md:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-[#388E3C] group"
+                className="bg-white p-4 md:p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border-t-4 border-[#5D4037] group"
               >
                 <div className="flex flex-col md:flex-row items-start gap-3 md:gap-6">
                   <div className="flex-shrink-0">
-                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-[#388E3C] to-[#2E7D32] flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <div className="w-12 h-12 md:w-16 md:h-16 rounded-xl bg-gradient-to-br from-[#5D4037] to-[#4E342E] flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300">
                       <Icon className="w-6 h-6 md:w-8 md:h-8 text-white" />
                     </div>
                   </div>

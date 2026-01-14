@@ -51,7 +51,7 @@ export default function Offers() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-[#3E2723] mb-4">
-            Escolha seu <span className="text-[#388E3C]">Tratamento</span>
+            Escolha seu <span className="text-[#5D4037]">Tratamento</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#D4AF37] to-[#FFD700] mx-auto rounded-full"></div>
         </div>
@@ -79,7 +79,7 @@ export default function Offers() {
                   <h3 className="text-2xl font-bold text-[#3E2723] mb-2">
                     {offer.title}
                   </h3>
-                  <p className="text-[#388E3C] font-semibold text-lg">
+                  <p className="text-[#5D4037] font-semibold text-lg">
                     {offer.subtitle}
                   </p>
                 </div>
@@ -101,10 +101,10 @@ export default function Offers() {
                   <p className="text-3xl md:text-4xl font-bold text-[#3E2723] mb-2">
                     {offer.installments}
                   </p>
-                  <p className="text-xl text-[#388E3C] font-semibold mb-3">
+                  <p className="text-xl text-[#5D4037] font-semibold mb-3">
                     Ou {offer.cashPrice} à vista
                   </p>
-                  <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-4 py-2 rounded-full font-bold">
+                  <div className="inline-flex items-center gap-2 bg-[#EFEBE9] text-[#5D4037] px-4 py-2 rounded-full font-bold">
                     <Zap className="w-4 h-4" />
                     Economia de {offer.savings}
                   </div>
@@ -121,7 +121,7 @@ export default function Offers() {
                 </a>
 
                 {/* Frete Grátis */}
-                <div className="flex items-center justify-center gap-2 text-[#388E3C] font-semibold">
+                <div className="flex items-center justify-center gap-2 text-[#5D4037] font-semibold">
                   <Truck className="w-5 h-5" />
                   <span>Frete grátis para todo o Brasil</span>
                 </div>

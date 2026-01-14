@@ -19,22 +19,18 @@ export default function Hero() {
   return (
     <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-white to-[#F5F5F5]">
       <div className="max-w-4xl mx-auto text-center">
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#3E2723] mb-6 leading-tight">
-          Seu cabelo está caindo cada vez mais?
-          <br />
-          <span className="text-[#388E3C]">
-            O problema pode não ser shampoo, e sim o que está faltando no seu corpo.
-          </span>
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#3E2723] mb-6 leading-tight">
+          Queda de cabelo pode estar ligada à falta de nutrientes no organismo, e não ao uso de shampoo, dizem especialistas.
         </h1>
 
-        <p className="text-lg md:text-2xl text-[#5D4037] mb-4 font-medium">
-          Descubra como nutrir o organismo de dentro para fora pode ajudar a reduzir a queda capilar.
+        <p className="text-lg md:text-xl text-[#5D4037] mb-6 font-medium">
+          Descubra o segredo de cabelos e unhas fortes que eles querem esconder de você
         </p>
 
-        <div className="flex items-center justify-center gap-2 text-red-600 mb-8 animate-pulse">
+        <div className="flex items-center justify-center gap-2 text-[#8D6E63] mb-8 animate-pulse">
           <AlertTriangle className="w-5 h-5" />
           <p className="text-base md:text-lg font-semibold">
-            Assista ao vídeo abaixo antes que ele seja removido.
+            ASSISTA AGORA — IGNORAR ISSO PODE FAZER SEU CABELO CONTINUAR CAINDO TODOS OS DIAS
           </p>
         </div>
 
@@ -63,9 +59,9 @@ export default function Hero() {
 
           {/* Indicador de Visualizações */}
           <div className="mt-4 flex items-center justify-center gap-2 text-[#3E2723]">
-            <Eye className="w-5 h-5 text-[#388E3C]" />
+            <Eye className="w-5 h-5 text-[#5D4037]" />
             <p className="font-semibold">
-              Pessoas assistindo agora: <span className="text-[#388E3C] font-bold">+{viewers.toLocaleString('pt-BR')}</span>
+              Pessoas assistindo agora: <span className="text-[#5D4037] font-bold">+{viewers.toLocaleString('pt-BR')}</span>
             </p>
           </div>
         </div>

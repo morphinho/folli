@@ -36,7 +36,7 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-3 mb-4">
-            <HelpCircle className="w-10 h-10 text-[#388E3C]" />
+            <HelpCircle className="w-10 h-10 text-[#5D4037]" />
             <h2 className="text-4xl md:text-5xl font-bold text-[#3E2723]">
               Perguntas Frequentes
             </h2>
@@ -58,7 +58,7 @@ export default function FAQ() {
                   {faq.question}
                 </h3>
                 <ChevronDown
-                  className={`w-6 h-6 text-[#388E3C] flex-shrink-0 transition-transform duration-300 ${
+                  className={`w-6 h-6 text-[#5D4037] flex-shrink-0 transition-transform duration-300 ${
                     openIndex === index ? 'rotate-180' : ''
                   }`}
                 />

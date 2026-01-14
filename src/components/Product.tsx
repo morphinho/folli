@@ -14,7 +14,7 @@ export default function Product() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-[#3E2723] mb-4">
-            Conheça o <span className="text-[#388E3C]">FolliVida</span>
+            Conheça o <span className="text-[#5D4037]">FolliVida</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#D4AF37] to-[#FFD700] mx-auto rounded-full"></div>
         </div>
@@ -34,7 +34,7 @@ export default function Product() {
           {/* Descrição */}
           <div className="order-1 md:order-2">
             <p className="text-[#3E2723] text-lg md:text-xl leading-relaxed mb-8">
-              O <strong className="text-[#388E3C]">FolliVida</strong> é um suplemento alimentar em cápsulas desenvolvido para{' '}
+              O <strong className="text-[#5D4037]">FolliVida</strong> é um suplemento alimentar em cápsulas desenvolvido para{' '}
               <strong>auxiliar na redução da queda de cabelo</strong>, fortalecendo os fios por meio de uma nutrição adequada ao organismo.
             </p>
 
@@ -44,9 +44,9 @@ export default function Product() {
                 return (
                   <div
                     key={index}
-                    className="flex items-center gap-4 bg-[#F5F5F5] p-4 rounded-xl hover:bg-[#E8F5E9] transition-colors duration-300"
+                    className="flex items-center gap-4 bg-[#F5F5F5] p-4 rounded-xl hover:bg-[#EFEBE9] transition-colors duration-300"
                   >
-                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#388E3C] to-[#2E7D32] flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-[#5D4037] to-[#4E342E] flex items-center justify-center flex-shrink-0">
                       <Icon className="w-6 h-6 text-white" />
                     </div>
                     <p className="text-[#3E2723] font-semibold text-lg">{item.text}</p>
