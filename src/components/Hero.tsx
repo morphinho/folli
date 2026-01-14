@@ -19,17 +19,17 @@ export default function Hero() {
   return (
     <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-white to-[#F5F5F5]">
       <div className="max-w-4xl mx-auto text-center">
-        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-[#3E2723] mb-6 leading-tight">
+        <h1 className="text-xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-[#3E2723] mb-4 md:mb-6 leading-tight px-2">
           Queda de cabelo pode estar ligada à falta de nutrientes no organismo, e não ao uso de shampoo, dizem especialistas.
         </h1>
 
-        <p className="text-lg md:text-xl text-[#5D4037] mb-6 font-medium">
+        <p className="text-base md:text-lg lg:text-xl text-[#5D4037] mb-4 md:mb-6 font-medium px-2">
           Descubra o segredo de cabelos e unhas fortes que eles querem esconder de você
         </p>
 
-        <div className="flex items-center justify-center gap-2 text-[#8D6E63] mb-8 animate-pulse">
-          <AlertTriangle className="w-5 h-5" />
-          <p className="text-base md:text-lg font-semibold">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-[#8D6E63] mb-6 md:mb-8 animate-pulse px-2">
+          <AlertTriangle className="w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
+          <p className="text-xs sm:text-sm md:text-base lg:text-lg font-semibold text-center">
             ASSISTA AGORA — IGNORAR ISSO PODE FAZER SEU CABELO CONTINUAR CAINDO TODOS OS DIAS
           </p>
         </div>
@@ -45,16 +45,6 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Placeholder para o vídeo */}
-            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-[#3E2723] to-[#5D4037]">
-              <div className="text-center text-white p-8">
-                <div className="w-20 h-20 mx-auto mb-4 rounded-full bg-white/20 flex items-center justify-center">
-                  <div className="w-0 h-0 border-t-8 border-t-transparent border-l-12 border-l-white border-b-8 border-b-transparent ml-1"></div>
-                </div>
-                <p className="text-xl font-semibold">Vídeo VSL</p>
-                <p className="text-sm opacity-80 mt-2">Insira seu vídeo de vendas aqui</p>
-              </div>
-            </div>
           </div>
 
           {/* Indicador de Visualizações */}
